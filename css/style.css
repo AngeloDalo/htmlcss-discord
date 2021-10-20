@@ -245,6 +245,12 @@ footer{
     margin-bottom: 1em;
 }
 
+
+.element-footer-contact img{
+    width: 30px;
+    height: 20px;
+}
+
 .element-footer-contact span{
     color: white;
 }
