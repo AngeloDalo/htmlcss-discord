@@ -129,7 +129,6 @@ a.btn.dark:focus {
 main{
     width: 90%;
     margin:auto;
-    height: 1200px;
     background-color: beige;
 }
 
@@ -215,6 +214,82 @@ main{
 }
 /*fine css main*/
 
+/*inizio css footer*/
+footer{
+    width: 100%;
+    margin-top: 3em;
+    background-color: rgb(33, 33, 121);
+    height: 500px;
+}
 
+.container-footer{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+}
 
+[class*="footer-"]{
+    width: calc(100% / 5);
+    float: left;
+}
 
+.element-footer-contact {
+    margin-top: 5em;
+    margin-left: 2em;
+    width: 100%;
+}
+
+.element-footer-contact h1{
+    color: cornflowerblue;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.element-footer-contact span{
+    color: white;
+}
+
+.element-footer-contact div i{
+    font-size: 2em;
+    margin-top: 1em;
+    color: white;
+}
+
+.footer-Prodotti ul{
+    list-style: none;
+    margin-top: 5em;
+    margin-left: 2em;
+}
+
+.footer-Prodotti li{
+    font-size: 1.2em;
+}
+
+.footer-Prodotti li a{
+    text-decoration: none;
+}
+
+li .colored{
+    color: cornflowerblue;
+}
+
+li .white-a{
+    color: white;
+}
+
+.footer-Prodotti li a:hover,
+.footer-Prodotti li a:active,
+.footer-Prodotti li a:focus {
+    color: #265ee8;
+}
+
+hr{
+    width: 85%;
+    margin: auto;
+}
+
+.footer-logo img{
+    margin-top: 2em;
+    margin-left: 7em;
+}
+/*fine footer*/
