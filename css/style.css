@@ -125,10 +125,11 @@ a.btn.dark:focus {
     color: #265ee8;
 }
 
+/*css main*/
 main{
     width: 90%;
-    height: 1200px;
     margin:auto;
+    height: 1200px;
     background-color: beige;
 }
 
@@ -140,8 +141,6 @@ main{
 
 .block{
     width: 100%;
-    height: 500px;
-    background-color: red;
     margin-top: 2em;
 }
 
@@ -161,3 +160,61 @@ main{
 .text-block h1{
     line-height: 1.2em;
 }
+
+.beige{
+    background-color: beige;
+}
+
+.white{
+    background-color: white;
+}
+
+.block-nofloat{
+    text-align: center;
+}
+
+.block-nofloat h1{
+    margin-bottom: 0.5em;
+}
+
+.block-nofloat img{
+    height: 450px;
+}
+
+.block .relative{
+    position: relative;
+    margin-top: 3em;
+}
+
+.block-nofloat .stars{
+    width: 150%;
+    height: 150%;
+    top: 0%;
+    left: -25%;
+    position: absolute;
+}
+
+.link-dw{
+    margin-left: 40%;
+}
+
+.link-dw a{
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 2em;
+    padding: 1px 14px;
+    line-height: 2em;
+    display: inline-block;
+}
+
+.link-dw a:hover,
+.link-dw a:active,
+.link-dw a:focus {
+    color: #265ee8;
+}
+/*fine css main*/
+
+
+
+
