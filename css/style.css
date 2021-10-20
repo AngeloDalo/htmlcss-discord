@@ -183,17 +183,19 @@ main{
 .block .relative{
     position: relative;
     margin-top: 3em;
+    overflow: hidden;
 }
 
 .block-nofloat .stars{
     width: 150%;
-    height: 150%;
+    height: 100%;
     top: 0%;
     left: -25%;
     position: absolute;
 }
 
 .link-dw{
+    margin-top: 2em;
     margin-left: 40%;
 }
 
@@ -318,5 +320,11 @@ hr{
     padding: 1px 14px;
     line-height: 2em;
     display: inline-block;
+}
+
+.link-reg a:hover,
+.link-reg a:active,
+.link-reg a:focus {
+    color: #265ee8;
 }
 /*fine footer*/
